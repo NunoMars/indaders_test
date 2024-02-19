@@ -4,13 +4,22 @@ metadata:
   creationTimestamp: null
   name: nginx-poesie-configmap
 data:
-  POESIE: |
-    La terre est bleue comme une orange
-    Jamais une erreur les mots ne mentent pas
-    Ils ne vous donnent plus à chanter
-    Au tour des baisers de s'entendre
-    Les fous et les amours
-    Elle sa bouche d'alliance
-    Tous les secrets tous les sourires
-    Et quels vêtements d'indulgence
-    À la croire toute nue.
+  index.html: |
+    <html>
+      <head>
+        <title>La terre est bleue comme une orange</title>
+      </head>
+      <body>
+        <h1>La terre est bleue comme une orange</h1>
+        <p>
+          Jamais une erreur les mots ne mentent pas<br>
+          Ils ne vous donnent plus à chanter<br>
+          Au tour des baisers de s'entendre<br>
+          Les fous et les amours<br>
+          Elle sa bouche d'alliance<br>
+          Tous les secrets tous les sourires<br>
+          Et quels vêtements d'indulgence<br>
+          À la croire toute nue.
+        </p>
+      </body>
+    </html>
