@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   creationTimestamp: null
-  name: exo2-configmap
+  name: nginx-poesie-configmap
 data:
   POESIE: |
     La terre est bleue comme une orange
